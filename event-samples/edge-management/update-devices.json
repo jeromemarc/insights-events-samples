@@ -1,0 +1,31 @@
+{
+  "account_id": "",
+  "application": "edge-management",
+  "bundle": "rhel",
+  "context": {
+    "CommitID": "4172",
+    "UpdateID": "1937"
+  },
+  "event_type": "update-devices",
+  "events": [
+    {
+      "payload": {
+        "ID": "rhel9edge"
+      },
+      "metadata": {}
+    }
+  ],
+  "org_id": "7931872",
+  "timestamp": "2024-01-19T15:10:07",
+  "source": {
+    "application": {
+      "display_name": "Edge Management"
+    },
+    "bundle": {
+      "display_name": "Red Hat Enterprise Linux"
+    },
+    "event_type": {
+      "display_name": "Update Devices"
+    }
+  }
+}
