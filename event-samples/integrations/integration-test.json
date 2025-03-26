@@ -1,0 +1,32 @@
+{
+  "account_id": null,
+  "application": "integrations",
+  "bundle": "console",
+  "context": {
+    "integration-uuid": "01b3c20a-f616-4d43-84ce-a0440cb3cc82"
+  },
+  "event_type": "integration-test",
+  "events": [
+    {
+      "metadata": {
+        "meta-information": "Meta information about the action"
+      },
+      "payload": {
+        "message": "Congratulations! The integration was successfully tested!"
+      }
+    }
+  ],
+  "org_id": "7931872",
+  "timestamp": "2024-08-14T10:43:57.855390124",
+  "source": {
+    "application": {
+      "display_name": "Integrations"
+    },
+    "bundle": {
+      "display_name": "Console"
+    },
+    "event_type": {
+      "display_name": "Integration Test"
+    }
+  }
+}
