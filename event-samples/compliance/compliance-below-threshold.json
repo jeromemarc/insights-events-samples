@@ -1,4 +1,5 @@
 {
+  "version": "v1.1.0",
   "bundle": "rhel",
   "application": "compliance",
   "event_type": "compliance-below-threshold",
