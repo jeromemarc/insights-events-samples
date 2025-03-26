@@ -1,0 +1,49 @@
+{
+  "bundle": "rhel",
+  "application": "compliance",
+  "event_type": "compliance-below-threshold",
+  "timestamp": "2025-03-17T13:37:39+00:00",
+  "org_id": "7931872",
+  "events": [
+    {
+      "metadata": {},
+      "payload": {
+        "host_id": "82703bcd-ddad-4d9d-bec2-7d83be703cde",
+        "host_name": "rhel8desktop",
+        "policy_id": "82595eba-21ea-497b-b846-04a3722daca6",
+        "policy_name": "Protection Profile for General Purpose Operating Systems",
+        "policy_threshold": 100.0,
+        "compliance_score": 47.4
+      }
+    }
+  ],
+  "context": {
+    "display_name": "rhel8desktop",
+    "host_url": "https://console.redhat.com/insights/inventory/82703bcd-ddad-4d9d-bec2-7d83be703cde",
+    "inventory_id": "82703bcd-ddad-4d9d-bec2-7d83be703cde",
+    "rhel_version": "8.10",
+    "tags": [
+      {
+        "key": "Team",
+        "value": "PMs",
+        "namespace": "insights-client"
+      },
+      {
+        "key": "Owner",
+        "value": "Jerome Marc",
+        "namespace": "insights-client"
+      },
+      {
+        "key": "Application",
+        "value": "RHEL Desktop",
+        "namespace": "insights-client"
+      },
+      {
+        "key": "Expiration Date",
+        "value": null,
+        "namespace": "insights-client"
+      }
+    ]
+  },
+  "recipients": []
+}
