@@ -1,0 +1,38 @@
+{
+  "org_id": "7931872",
+  "application": "inventory",
+  "bundle": "rhel",
+  "context": {
+    "inventory_id": "82703bcd-ddad-4d9d-bec2-7d83be703cde",
+    "hostname": "rhel8desktop",
+    "display_name": "rhel8desktop",
+    "rhel_version": "8.10",
+    "tags": {
+      "insights-client": {
+        "Team": ["PMs"],
+        "Owner": ["Jerome Marc"],
+        "Application": ["RHEL Desktop"],
+        "Expiration Date": []
+      }
+    },
+    "host_url": "https://console.redhat.com/insights/inventory/82703bcd-ddad-4d9d-bec2-7d83be703cde"
+  },
+  "events": [
+    {
+      "metadata": {},
+      "payload": {
+        "groups": [
+          {
+            "id": "00e87dbf-738a-4089-8e74-ed84da7e8149",
+            "name": "My group"
+          }
+        ],
+        "insights_id": "dea5eac8-12ec-4283-950a-a3761d9fd9bb",
+        "subscription_manager_id": "dea5eac8-12ec-4283-950a-a3761d9fd9bb",
+        "satellite_id": ""
+      }
+    }
+  ],
+  "event_type": "system-became-stale",
+  "timestamp": "2025-03-26T07:16:26.774585+00:00"
+}
