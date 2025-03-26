@@ -1,0 +1,26 @@
+{
+  "bundle": "rhel",
+  "application": "compliance",
+  "event_type": "report-upload-failed",
+  "account_id": "7004648",
+  "org_id": "13959588",
+  "timestamp": "2022-08-05T13:31:59",
+  "events": [
+    {
+      "metadata": {},
+      "payload": {
+        "host_id": "be0d2c69-9d80-4df3-9557-cb256dc804e0",
+        "host_name": "randomserver",
+        "request_id": "15343e1d0425436a8f09db0ea9e0b109",
+        "error": "Failed to parse report xccdf_org.ssgproject.content_profile_pci-dss from host be0d2c69-9d80-4df3-9557-cb256dc804e0: RecordInvalid"
+      }
+    }
+  ],
+  "context": {
+    "display_name": "randomserver",
+    "host_url": "https://console.redhat.com/insights/inventory/be0d2c69-9d80-4df3-9557-cb256dc804e0",
+    "inventory_id": "be0d2c69-9d80-4df3-9557-cb256dc804e0",
+    "rhel_version": "8.4",
+    "tags": []
+  }
+}
