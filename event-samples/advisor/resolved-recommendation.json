@@ -1,0 +1,98 @@
+{
+  "bundle": "rhel",
+  "application": "advisor",
+  "event_type": "resolved-recommendation",
+  "timestamp": "2025-03-25T06:42:35.368236",
+  "account_id": "5685364",
+  "org_id": "7931872",
+  "context": {
+    "inventory_id": "82703bcd-ddad-4d9d-bec2-7d83be703cde",
+    "hostname": "rhel8desktop",
+    "display_name": "rhel8desktop",
+    "rhel_version": "8.10",
+    "tags": [
+      {
+        "key": "Team",
+        "value": "PMs",
+        "namespace": "insights-client"
+      },
+      {
+        "key": "Owner",
+        "value": "Jerome Marc",
+        "namespace": "insights-client"
+      },
+      {
+        "key": "Application",
+        "value": "RHEL Desktop",
+        "namespace": "insights-client"
+      },
+      {
+        "key": "Expiration Date",
+        "value": null,
+        "namespace": "insights-client"
+      }
+    ]
+  },
+  "events": [
+    {
+      "metadata": {},
+      "payload": {
+        "rule_id": "nodejs_eol|NODEJS_EOL_ERROR",
+        "rule_description": "Red Hat has discontinued technical support services as well as software maintenance services for the End-Of-Life NodeJS",
+        "total_risk": "3",
+        "publish_date": "2021-05-19T03:03:00+00:00",
+        "rule_url": "https://console.redhat.com/insights/advisor/recommendations/nodejs_eol|NODEJS_EOL_ERROR/",
+        "reboot_required": false,
+        "has_incident": true
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "rule_id": "openjdk_eol|JDK_EOL_ERROR",
+        "rule_description": "Red Hat has discontinued technical support services as well as software maintenance services for the End-Of-Life OpenJDK",
+        "total_risk": "3",
+        "publish_date": "2021-05-19T03:03:00+00:00",
+        "rule_url": "https://console.redhat.com/insights/advisor/recommendations/openjdk_eol|JDK_EOL_ERROR/",
+        "reboot_required": false,
+        "has_incident": true
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "rule_id": "rhc_lose_conn_to_console|RHC_MQTT_DELAY_ERROR",
+        "rule_description": "A subset of the Red Hat Insights capabilities becomes unavailable when the rhc client disconnects from the Red Hat Insights cloud service",
+        "total_risk": "3",
+        "publish_date": "2024-11-03T05:18:00+00:00",
+        "rule_url": "https://console.redhat.com/insights/advisor/recommendations/rhc_lose_conn_to_console|RHC_MQTT_DELAY_ERROR/",
+        "reboot_required": true,
+        "has_incident": true
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "rule_id": "sha1_signed_packages_detected|SHA1_RPMS_INSTALLED_WHICH_IS_CONSIDERED_AS_UNSAFE",
+        "rule_description": "The installation of RPM packages signed with SHA-1 is considered unsafe",
+        "total_risk": "3",
+        "publish_date": "2022-09-04T03:59:00+00:00",
+        "rule_url": "https://console.redhat.com/insights/advisor/recommendations/sha1_signed_packages_detected|SHA1_RPMS_INSTALLED_WHICH_IS_CONSIDERED_AS_UNSAFE/",
+        "reboot_required": false,
+        "has_incident": false
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "rule_id": "vm_fail_start_using_spice_qxl|VM_FAIL_START_USING_SPICE_QXL_WARN",
+        "rule_description": "Virtual Machines fail to be created or started when using \"spice\" or \"qxl\" in VM XML after upgrading to RHEL 9",
+        "total_risk": "3",
+        "publish_date": "2024-04-21T05:03:00+00:00",
+        "rule_url": "https://console.redhat.com/insights/advisor/recommendations/vm_fail_start_using_spice_qxl|VM_FAIL_START_USING_SPICE_QXL_WARN/",
+        "reboot_required": false,
+        "has_incident": false
+      }
+    }
+  ]
+}
