@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "id": "afcc89b4-2452-46f7-9464-1548b56d62f3",
+  "bundle": "console",
+  "application": "integrations",
+  "event_type": "integration-disabled",
+  "timestamp": "2025-03-17T13:37:35.48895807",
+  "org_id": "7931872",
+  "context": {
+    "error_type": "HTTP_4XX",
+    "error_details": "",
+    "endpoint_id": "5be4f4ec-ad6b-457d-b6f8-17ac50d87eb8",
+    "endpoint_name": "Webhook.site",
+    "endpoint_category": "Webhooks",
+    "errors_count": 1,
+    "status_code": 404
+  },
+  "events": [
+    {
+      "payload": {},
+      "metadata": {}
+    }
+  ],
+  "recipients": [
+    {
+      "only_admins": true,
+      "ignore_user_preferences": true,
+      "users": [],
+      "emails": [],
+      "groups": []
+    }
+  ]
+}
