@@ -1,0 +1,25 @@
+{
+  "version": "v1.1.0",
+  "bundle": "rhel",
+  "application": "patch",
+  "event_type": "new-advisory",
+  "timestamp": "2025-03-26T02:56:55Z",
+  "context": {
+    "inventory_id": "ae704912-fc0b-4918-bde6-8343ab80088a",
+    "display_name": "randomserver",
+    "host_url": "https://console.redhat.com/insights/inventory/ae704912-fc0b-4918-bde6-8343ab80088a",
+    "tags": []
+  },
+  "events": [
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291703675,
+        "advisory_name": "RHSA-2025:3208",
+        "advisory_type": "unknown",
+        "synopsis": "Not Available"
+      }
+    }
+  ],
+  "org_id": "13959588"
+}
