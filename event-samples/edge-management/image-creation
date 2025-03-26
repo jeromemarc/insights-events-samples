@@ -1,0 +1,29 @@
+{
+  "bundle": "rhel",
+  "application": "edge-management",
+  "event_type": "image-creation",
+  "timestamp": "2025-03-20T09:17:41Z",
+  "account_id": "",
+  "org_id": "7931872",
+  "context": {
+    "ImageName": "Latest RHEL9 edge image"
+  },
+  "events": [
+    {
+      "metadata": {},
+      "payload": {
+        "ImageId": "7292",
+        "ImageSetID": "4959"
+      }
+    }
+  ],
+  "recipients": [
+    {
+      "only_admins": false,
+      "ignore_user_preferences": false,
+      "users": [
+        "fleet-management"
+      ]
+    }
+  ]
+}
