@@ -1,4 +1,5 @@
 {
+  "version": "2.0.0",
   "bundle": "rhel",
   "application": "policies",
   "event_type": "policy-triggered",
