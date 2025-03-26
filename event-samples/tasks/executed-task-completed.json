@@ -1,0 +1,23 @@
+{
+  "version": "v1.2.0",
+  "bundle": "rhel",
+  "application": "tasks",
+  "event_type": "executed-task-completed",
+  "timestamp": "2025-03-26T10:56:40.311510",
+  "account_id": null,
+  "org_id": "13959588",
+  "context": {},
+  "events": [
+    {
+      "metadata": {},
+      "payload": {
+        "task_name": "Pre-upgrade analysis for in-place upgrade from RHEL 8",
+        "task_slug": "leapp-preupgrade",
+        "executed_task_id": 18375,
+        "status": "Completed"
+      }
+    }
+  ],
+  "recipients": [],
+  "id": "6cf0ba76-4713-4ede-886a-bc1edb773eed"
+}
