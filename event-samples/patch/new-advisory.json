@@ -3,7 +3,7 @@
   "bundle": "rhel",
   "application": "patch",
   "event_type": "new-advisory",
-  "timestamp": "2025-03-26T02:56:55Z",
+  "timestamp": "2025-03-24T13:28:32Z",
   "context": {
     "inventory_id": "ae704912-fc0b-4918-bde6-8343ab80088a",
     "display_name": "randomserver",
@@ -14,12 +14,281 @@
     {
       "metadata": {},
       "payload": {
-        "advisory_id": 291703675,
-        "advisory_name": "RHSA-2025:3208",
-        "advisory_type": "unknown",
-        "synopsis": "Not Available"
+        "advisory_id": 291700298,
+        "advisory_name": "RHBA-2024:11223",
+        "advisory_type": "bugfix",
+        "synopsis": "javapackages-tools bug fix update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291700295,
+        "advisory_name": "RHBA-2024:11224",
+        "advisory_type": "bugfix",
+        "synopsis": "ostree bug fix update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291700314,
+        "advisory_name": "RHBA-2024:11225",
+        "advisory_type": "bugfix",
+        "synopsis": "libvirt bug fix update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291696387,
+        "advisory_name": "RHBA-2024:6669",
+        "advisory_type": "bugfix",
+        "synopsis": "libvirt bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698732,
+        "advisory_name": "RHBA-2024:9095",
+        "advisory_type": "bugfix",
+        "synopsis": "ostree bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698793,
+        "advisory_name": "RHBA-2024:9163",
+        "advisory_type": "bugfix",
+        "synopsis": "fapolicyd bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698595,
+        "advisory_name": "RHBA-2024:9182",
+        "advisory_type": "bugfix",
+        "synopsis": "libdrm bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698623,
+        "advisory_name": "RHBA-2024:9202",
+        "advisory_type": "bugfix",
+        "synopsis": "mesa bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698583,
+        "advisory_name": "RHBA-2024:9214",
+        "advisory_type": "bugfix",
+        "synopsis": "python-rpm-macros bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698731,
+        "advisory_name": "RHBA-2024:9218",
+        "advisory_type": "bugfix",
+        "synopsis": "alsa-lib bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698740,
+        "advisory_name": "RHBA-2024:9222",
+        "advisory_type": "bugfix",
+        "synopsis": "libiptcdata bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698705,
+        "advisory_name": "RHBA-2024:9246",
+        "advisory_type": "bugfix",
+        "synopsis": "redhat-rpm-config bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698801,
+        "advisory_name": "RHBA-2024:9247",
+        "advisory_type": "bugfix",
+        "synopsis": "python3.12-setuptools bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698725,
+        "advisory_name": "RHBA-2024:9258",
+        "advisory_type": "bugfix",
+        "synopsis": "orc bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698628,
+        "advisory_name": "RHBA-2024:9261",
+        "advisory_type": "bugfix",
+        "synopsis": "go-rpm-macros bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698729,
+        "advisory_name": "RHBA-2024:9268",
+        "advisory_type": "bugfix",
+        "synopsis": "osinfo-db bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698808,
+        "advisory_name": "RHBA-2024:9292",
+        "advisory_type": "bugfix",
+        "synopsis": "ecj bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698739,
+        "advisory_name": "RHBA-2024:9295",
+        "advisory_type": "bugfix",
+        "synopsis": "composefs bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698807,
+        "advisory_name": "RHBA-2024:9298",
+        "advisory_type": "bugfix",
+        "synopsis": "tomcat bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698735,
+        "advisory_name": "RHBA-2024:9300",
+        "advisory_type": "bugfix",
+        "synopsis": "libtiff bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698734,
+        "advisory_name": "RHBA-2024:9303",
+        "advisory_type": "bugfix",
+        "synopsis": "rtkit bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698706,
+        "advisory_name": "RHBA-2024:9320",
+        "advisory_type": "bugfix",
+        "synopsis": "libpciaccess bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698602,
+        "advisory_name": "RHBA-2024:9354",
+        "advisory_type": "bugfix",
+        "synopsis": "cups bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698642,
+        "advisory_name": "RHBA-2024:9434",
+        "advisory_type": "bugfix",
+        "synopsis": "avahi bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291701163,
+        "advisory_name": "RHBA-2025:0515",
+        "advisory_type": "bugfix",
+        "synopsis": "libisoburn bug fix update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698727,
+        "advisory_name": "RHEA-2024:9201",
+        "advisory_type": "enhancement",
+        "synopsis": "gdb bug fix and enhancement update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698919,
+        "advisory_name": "RHEA-2024:9448",
+        "advisory_type": "enhancement",
+        "synopsis": "OpenJDK 11 is no longer the default system-wide version of Java on RHEL 9"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291698921,
+        "advisory_name": "RHEA-2024:9463",
+        "advisory_type": "enhancement",
+        "synopsis": "OpenJDK 17 is now the default system-wide version of Java on RHEL 9"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291699730,
+        "advisory_name": "RHSA-2024:10472",
+        "advisory_type": "security",
+        "synopsis": "Important: webkit2gtk3 security update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291700119,
+        "advisory_name": "RHSA-2024:10978",
+        "advisory_type": "security",
+        "synopsis": "Important: python3.12 security update"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "advisory_id": 291700200,
+        "advisory_name": "RHSA-2024:11306",
+        "advisory_type": "security",
+        "synopsis": "Important: qemu-kvm security update"
       }
     }
-  ],
-  "org_id": "13959588"
+  ]
 }
