@@ -1,0 +1,26 @@
+{
+  "bundle": "rhel",
+  "application": "resource-optimization",
+  "event_type": "new-suggestion",
+  "timestamp": "2025-03-24T11:02:58.503670+00:00",
+  "account_id": "",
+  "org_id": "13959588",
+  "context": {
+    "event_name": "New suggestion",
+    "systems_with_suggestions": 0,
+    "display_name": "randomserver",
+    "inventory_id": "1e67d56e-9cd8-430f-bca8-d412223ddc1d"
+  },
+  "events": [
+    {
+      "metadata": {},
+      "payload": {
+        "display_name": "dur-rhc01.hcc-lab.com",
+        "inventory_id": "1e67d56e-9cd8-430f-bca8-d412223ddc1d",
+        "message": "randomserver has a new suggestion.",
+        "previous_state": "Optimized",
+        "current_state": "Waiting for data"
+      }
+    }
+  ]
+}
