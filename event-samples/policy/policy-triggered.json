@@ -1,0 +1,78 @@
+{
+  "bundle": "rhel",
+  "application": "policies",
+  "event_type": "policy-triggered",
+  "timestamp": "2025-03-26T02:28:36.99491807",
+  "account_id": "5685364",
+  "org_id": "7931872",
+  "context": {
+    "inventory_id": "82703bcd-ddad-4d9d-bec2-7d83be703cde",
+    "system_check_in": "2025-03-26T02:28:36.56331",
+    "display_name": "rhel8desktop",
+    "tags": [
+      {
+        "value": "Jerome Marc",
+        "key": "owner"
+      },
+      {
+        "value": "RHEL Desktop",
+        "key": "application"
+      },
+      {
+        "value": "",
+        "key": "expiration date"
+      },
+      {
+        "value": "82703bcd-ddad-4d9d-bec2-7d83be703cde",
+        "key": "inventory_id"
+      },
+      {
+        "value": "PMs",
+        "key": "team"
+      },
+      {
+        "value": "rhel8desktop",
+        "key": "display_name"
+      }
+    ]
+  },
+  "events": [
+    {
+      "metadata": {},
+      "payload": {
+        "policy_id": "cfa904e2-40fc-4ef1-9712-2dec84743dc6",
+        "policy_name": "hostgroup tag and/or group tag are present",
+        "policy_description": "Triggers when system tag with 'hostgroup' (Satellite) and/or 'group' (insights-client) key are present - used by automation to ensure system is associated to its group in Inventory",
+        "policy_condition": "tags.hostgroup or tags.group"
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "policy_id": "4c1f4e83-6cfc-4b01-91fa-8a7b6ab25b93",
+        "policy_name": "Check redhat-release package version is \"8.7\"",
+        "policy_description": "",
+        "policy_condition": "facts.installed_packages.redhat-release = \"8.7\""
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "policy_id": "49c9fef9-5abd-40ee-95f3-aeb6bb483cce",
+        "policy_name": "Simple policy for demo",
+        "policy_description": "",
+        "policy_condition": "facts.arch = \"x86_64\""
+      }
+    },
+    {
+      "metadata": {},
+      "payload": {
+        "policy_id": "e0fca718-d1ba-4cf4-a530-8de721c8c868",
+        "policy_name": "Second simple policy for demo",
+        "policy_description": "",
+        "policy_condition": "facts.arch = \"x86_64\""
+      }
+    }
+  ],
+  "recipients": []
+}
