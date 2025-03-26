@@ -1,0 +1,28 @@
+{
+  "version": "v2.0.0",
+  "bundle": "rhel",
+  "application": "image-builder",
+  "event_type": "launch-success",
+  "timestamp": "2025-03-19T15:17:45.447",
+  "account_id": "7004648",
+  "org_id": "13959588",
+  "context": {
+    "launch_id": 3741,
+    "provider": "aws"
+  },
+  "events": [
+    {
+      "payload": {
+        "reservation_id": 3741,
+        "instance_id": "i-05873cc245632f704",
+        "detail": {
+          "public_dns": "ec2-18-204-18-x.compute-1.amazonaws.com",
+          "public_ipv4": "18.204.18.x",
+          "private_ipv4": "172.31.90.x"
+        }
+      }
+    }
+  ],
+  "recipients": [],
+  "id": "a3b8840e-985a-4c41-b0d1-d1f0f7cf0cf7"
+}
