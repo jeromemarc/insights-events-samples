@@ -1,0 +1,50 @@
+{
+  "account_id": "",
+  "application": "inventory",
+  "bundle": "rhel",
+  "context": {
+    "event_name": "Host Validation Error",
+    "display_name": null,
+    "inventory_id": "328dc952-b90c-46ea-b7c1-6e3258b36ff6"
+  },
+  "event_type": "validation-error",
+  "events": [
+    {
+      "metadata": {},
+      "payload": {
+        "request_id": "8b717f36-c045-4504-8c6f-b8f6f2e8fdbd",
+        "display_name": null,
+        "canonical_facts": {
+          "insights_id": null,
+          "subscription_manager_id": null,
+          "satellite_id": null,
+          "bios_uuid": null,
+          "ip_addresses": null,
+          "fqdn": null,
+          "mac_addresses": null,
+          "provider_id": null,
+          "provider_type": null
+        },
+        "error": {
+          "code": "VE001",
+          "message": "Could not find an existing host with the provided facts.",
+          "stack_trace": null,
+          "severity": "error"
+        }
+      }
+    }
+  ],
+  "org_id": "13959588",
+  "timestamp": "2024-06-28T13:57:53.355997",
+  "source": {
+    "application": {
+      "display_name": "Inventory"
+    },
+    "bundle": {
+      "display_name": "Red Hat Enterprise Linux"
+    },
+    "event_type": {
+      "display_name": "Validation error"
+    }
+  }
+}
