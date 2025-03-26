@@ -1,0 +1,32 @@
+{
+  "account_id": "",
+  "application": "advisor",
+  "bundle": "rhel",
+  "context": {},
+  "event_type": "deactivated-recommendation",
+  "events": [
+    {
+      "payload": {
+        "rule_id": "dbus_failed_due_to_machine_id|MACHINE_ID_IS_MISSING_OR_WITH_INVALID_PERMISSION_WARN",
+        "rule_description": "D-Bus service will fail to restart when the /etc/machine-id file does not exist or with invalid permissions",
+        "total_risk": 3,
+        "affected_systems": 1,
+        "deactivation_reason": "Enhancement"
+      },
+      "metadata": {}
+    }
+  ],
+  "org_id": "17685137",
+  "timestamp": "2025-01-13T17:48:25.764937",
+  "source": {
+    "application": {
+      "display_name": "Advisor"
+    },
+    "bundle": {
+      "display_name": "Red Hat Enterprise Linux"
+    },
+    "event_type": {
+      "display_name": "Deactivated recommendation"
+    }
+  }
+}
