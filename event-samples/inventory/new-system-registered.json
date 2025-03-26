@@ -1,0 +1,35 @@
+{
+  "org_id": "7931872",
+  "application": "inventory",
+  "bundle": "rhel",
+  "context": {
+    "inventory_id": "0fae4f0d-73a0-4810-835a-5c5374a218b3",
+    "hostname": "rhel8desktop",
+    "display_name": "rhel8desktop",
+    "rhel_version": "8.10",
+    "tags": {
+      "insights-client": {
+        "Team": ["PMs"],
+        "Owner": ["Jerome Marc"],
+        "Application": ["RHEL Desktop"],
+        "Expiration Date": []
+      }
+    },
+    "host_url": "https://console.redhat.com/insights/inventory/0fae4f0d-73a0-4810-835a-5c5374a218b3"
+  },
+  "events": [
+    {
+      "metadata": {},
+      "payload": {
+        "groups": [],
+        "insights_id": "dea5eac8-12ec-4283-950a-a3761d9fd9bb",
+        "subscription_manager_id": "dea5eac8-12ec-4283-950a-a3761d9fd9bb",
+        "satellite_id": "",
+        "reporter": "puptoo",
+        "system_check_in": "2025-03-26T10:08:19.593384+00:00"
+      }
+    }
+  ],
+  "event_type": "new-system-registered",
+  "timestamp": "2025-03-26T10:08:19.616404+00:00"
+}
