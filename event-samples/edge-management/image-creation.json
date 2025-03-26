@@ -1,4 +1,5 @@
 {
+  "version": "v1.1.0",
   "bundle": "rhel",
   "application": "edge-management",
   "event_type": "image-creation",
