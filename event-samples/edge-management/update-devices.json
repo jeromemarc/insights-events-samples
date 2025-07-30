@@ -25,7 +25,7 @@
       "display_name": "Red Hat Enterprise Linux"
     },
     "event_type": {
-      "display_name": "Update Devices"
+      "display_name": "Device update started"
     }
   }
 }
