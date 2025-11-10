@@ -27,6 +27,7 @@
     }
   },
   "application_url": "https://console.redhat.com/insights/errata-notifications?from=notifications&integration=splunk",
-  "environment_url": "https://console.redhat.com","query_params":"?from=notifications&integration=splunk",
+  "environment_url": "https://console.redhat.com",
+  "query_params": "?from=notifications&integration=splunk",
   "endpoint_id": "70b1dd81-d400-4ae5-b227-4b42a68bfd1e"
 }
