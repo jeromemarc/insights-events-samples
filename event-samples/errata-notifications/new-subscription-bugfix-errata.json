@@ -1,0 +1,32 @@
+{
+  "account_id": null,
+  "application": "errata-notifications",
+  "bundle": "subscription-services",
+  "context": {
+    "base_url": "https://access.redhat.com/errata/"
+  },
+  "event_type": "new-subscription-bugfix-errata",
+  "events": [{
+    "metadata": {},
+    "payload": {
+      "id": "RHBA-2025:20022",
+      "synopsis": "updated amq-broker-7/amq-broker-713-openshift-rhel9 container image"
+    }}],
+  "org_id": "13959588",
+  "timestamp": "2025-11-10T13:13:23.774545621",
+  "severity": "UNDEFINED",
+  "source": {
+    "application": {
+      "display_name": "Errata"
+    },
+    "bundle": {
+      "display_name": "Subscription Services"
+    },
+    "event_type": {
+      "display_name": "Subscription Bug Fixes"
+    }
+  },
+  "application_url": "https://console.redhat.com/insights/errata-notifications?from=notifications&integration=splunk",
+  "environment_url": "https://console.redhat.com","query_params":"?from=notifications&integration=splunk",
+  "endpoint_id": "70b1dd81-d400-4ae5-b227-4b42a68bfd1e"
+}
