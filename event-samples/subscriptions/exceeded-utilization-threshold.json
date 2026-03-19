@@ -1,0 +1,19 @@
+{
+  "bundle": "subscription-services",
+  "application": "subscriptions",
+  "event_type": "exceeded-utilization-threshold",
+  "timestamp": "2026-03-19T06:21:40.647655775",
+  "org_id": "13959588",
+  "context": {
+    "product_id": "RHEL for x86",
+    "metric_id": "Cores"
+  },
+  "events": [
+    {
+      "metadata": {},
+      "payload": {
+        "utilization_percentage": "110.50"
+      }
+    }
+  ]
+}
