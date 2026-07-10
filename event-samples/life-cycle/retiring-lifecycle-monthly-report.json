@@ -1,0 +1,54 @@
+{
+  "bundle": "rhel",
+  "application": "life-cycle",
+  "event_type": "retiring-lifecycle-monthly-report",
+  "timestamp": "2026-07-01T06:25:59Z",
+  "org_id": "123456",
+  "context": {
+    "lifecycle": {
+      "report_date": "July 2026"
+    }
+  },
+  "events": [
+    {
+      "payload": {
+        "rhel_near_retirement": {
+          "rhel_versions_count": 0,
+          "systems_count": 0
+        },
+        "rhel_retired": {
+          "rhel_versions_count": 14,
+          "systems_count": 95
+        },
+        "appstream_near_retirement": {
+          "rhel8": {
+            "count": 0,
+            "systems_count": 0
+          },
+          "rhel9": {
+            "count": 1,
+            "systems_count": 1
+          },
+          "rhel10": {
+            "count": 0,
+            "systems_count": 0
+          }
+        },
+        "appstream_retired": {
+          "rhel8": {
+            "count": 1,
+            "systems_count": 3
+          },
+          "rhel9": {
+            "count": 2,
+            "systems_count": 5
+          },
+          "rhel10": {
+            "count": 0,
+            "systems_count": 0
+          }
+        }
+      }
+    }
+  ]
+}
