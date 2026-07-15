@@ -1,0 +1,27 @@
+{
+  "bundle": "rhel",
+  "application": "roadmap",
+  "event_type": "roadmap-monthly-report",
+  "org_id": "7931872",
+  "context": {
+    "roadmap": {
+      "report_date": "June 2026"
+    }
+  },
+  "events": [
+    {
+      "metadata": {},
+      "payload": {
+        "addition": {
+          "count": 0
+        },
+        "deprecation": {
+          "count": 0
+        },
+        "change": {
+          "count": 0
+        }
+      }
+    }
+  ]
+}
